@@ -25,9 +25,9 @@ def display_board
   end
 
 
- def input_to_index(user_input)
-  user_input = user_input.to_i
-  index = user_input-1
+ def input_to_index(player_input)
+  player_input = player_input.to_i
+  index = player_input-1
   return index
 end
 
